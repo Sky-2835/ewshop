@@ -1,0 +1,65 @@
+{
+  "id": "2580211",
+  "name": "vant",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "20585700",
+      "name": "colect",
+      "font_class": "colect",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "13380874",
+      "name": "我 的",
+      "font_class": "wode1",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "17386914",
+      "name": "分类",
+      "font_class": "leimupinleifenleileibie2",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "8072624",
+      "name": "商品",
+      "font_class": "shangpin1",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "13801147",
+      "name": "首页-选中",
+      "font_class": "index",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "15317644",
+      "name": "商品",
+      "font_class": "shangpin",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "16679311",
+      "name": "我 的",
+      "font_class": "wode",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "19912454",
+      "name": "分类",
+      "font_class": "category1",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}

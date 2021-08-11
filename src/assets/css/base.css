@@ -1,0 +1,64 @@
+@import "./normalize.css";
+
+:root {    /* 伪类 获取根元素html */
+  --color-text: #666;       /* -- 定义变量  例：font-size: var(--large-size) */
+  --color-high-text: #42b983;  /* #42b983 #ff5777*/
+  --color-tint: #42bBaa;       /* #42bBaa #ff8198*/
+  --color-background: #fff;
+  --font-size: 14px;
+  --line-height: 1.5;
+  --large-size:50px;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body,#app{
+  height: 100%;
+}
+
+
+
+body {
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  user-select: none; /* 禁止用户鼠标在页面上选中文字/图片等 */
+  -webkit-tap-highlight-color: transparent; /* webkit是苹果浏览器引擎，tap点击，highlight背景高亮，color颜色，颜色用数值调节 */
+  background: var(--color-background);
+  color: var(--color-text);
+  /* rem vw/vh */
+  width: 100%;
+}
+
+a {
+  color: var(--color-text);
+  text-decoration: none; /* 文本不要下划线等 或者闪烁效果 */
+}
+
+
+
+/* 下面的  可设置 可不设置            浮动*/
+/* .clear-fix::after {
+  clear: both;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.clear-fix {
+  zoom: 1;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+} */
+
